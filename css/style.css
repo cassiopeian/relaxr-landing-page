@@ -1,0 +1,121 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+header {
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: auto;
+  /*text-align: center;*/
+}
+h1 { 
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  padding-top: 30px;
+}
+#tagline {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 170px;
+  padding-bottom: 90px;
+}
+.get-button {
+  font-size: 28px;
+  font-weight: 800;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  padding: 10px 35px; 
+}
+a.get-button {
+  color: #033048;
+  text-decoration: none;
+}
+.benefits {
+  background-color: #f0efef;
+  height: 400px;
+  padding-left: 120px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #606161;
+  text-align: left;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+  padding-top: 60px;
+  padding-bottom: 30px; 
+}
+.benefits p {
+ padding-right: 750px; 
+}
+.benefits ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 75px;
+  padding-right: 640px;
+}
+.testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  font-size: 36px;
+  /*text-align: center;*/
+  color: #fff;
+  padding: 50px 430px;
+}
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+}
+#attribution {
+  font-weight: 600; 
+}
+.cta {
+  background-color: #f9e42e;
+  height: 60px;
+  padding-top: 30px;
+  /*text-align: center;*/
+}
+.now-button {
+  font-size: 28px;
+  font-weight: 800;
+  background-color: #033048;
+  border-radius: 5px;
+  padding: 10px 35px; 
+}
+a.now-button {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  background-color: #121212;
+  height: 350px;
+}
+#logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9e42e;
+  /*text-align: center;*/
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.twitter {
+  padding-right: 30px;
+}
+.facebook {
+  padding-left: 30px;
+}
+#copyright {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 70px;
+  padding-bottom: 15px;
+  color: #fff;
+}

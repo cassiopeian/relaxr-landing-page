@@ -1,0 +1,13 @@
+.main {
+	display: flex;
+	justify-content: space-between;
+}
+section {
+  height: 400px;
+  width: 70%; /* calc(70% - 20px) */
+  margin-right: 20px;
+}
+aside {
+  height: 400px;
+  width: 30%;
+}

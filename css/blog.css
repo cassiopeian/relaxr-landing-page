@@ -15,8 +15,17 @@ body {
 h1 {
   font-size: 48px;
   font-weight: 800;
-  color: #fff;
 }
+h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: #f9e42e;
+}
+h1 a:visited {
+  color: #fff;
+} 
 .tippy-top li {
   display: inline;
   justify-content: space-between;
@@ -36,6 +45,9 @@ li a {
 }
 .nav-links {
   color: #f9e42e;
+}
+.main, .sidebar {
+  margin-top: 40px;
 }
 .main {
   width: 700px;
@@ -69,12 +81,14 @@ p.entries::first-letter {
   text-decoration: none;
   padding-top: 20px;
 }
+.article-title {
+  padding: 0px;
+}
+
 h3 {
   font-size: 32px;
   font-weight: 800;
   color: #033048;
-  padding-top: 60px;
-  padding-bottom: 20px;
 }
 h3::first-child {
   padding-top: 0px;
@@ -99,6 +113,9 @@ h3::first-child {
   font-size: 22px;
   font-weight: 600;
   text-decoration: none;
+}
+.ad-unit {
+  padding-top: 50px;
 }
 hr {
   margin: 50px 0px;

@@ -3,19 +3,30 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
-header {
+html, body, #hero {
+  height: 100%;
+  width: 100%;
+}
+#hero {
   background-image: url("../images/header_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
   margin: auto;
-  /*text-align: center;*/
 }
-.index-h1 { 
+.logo {
   font-size: 48px;
   font-weight: 800;
-  color: #fff;
+}
+.top.logo { 
   padding-top: 30px;
+}
+.top.logo a:link,
+.top.logo a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.top.logo a:hover {
+  color: #59b8de;
 }
 #tagline {
   font-size: 48px;
@@ -24,98 +35,140 @@ header {
   padding-top: 170px;
   padding-bottom: 90px;
 }
-.get-button {
+.button {
   font-size: 28px;
   font-weight: 800;
-  background-color: #f9e42e;
   border-radius: 5px;
   padding: 10px 35px; 
 }
-a.get-button {
+a.button:hover {
+  background-color: #59b8de;
+}
+.get.button {
+  background-color: #f9e42e;
+}
+a.get.button {
   color: #033048;
   text-decoration: none;
 }
-.benefits {
+#benefits {
   background-color: #f0efef;
-  height: 400px;
-  padding-left: 120px;
+  /*padding-left: 120px;*/
+}
+#flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 6%;
+}
+#robot-img {
+  height: 350px;
+  padding-right: 6%;
+}
+.benefits-box {
+  text-align: left;
   font-size: 26px;
   font-weight: 300;
   color: #606161;
-  text-align: left;
 }
-h2 {
+.graf-title {
   font-size: 40px;
   font-weight: 600;
   color: #033048;
-  padding-top: 60px;
+  /*padding-top: 60px;*/
   padding-bottom: 30px; 
 }
-.benefits p {
- padding-right: 750px; 
-}
-.benefits ul {
+.benefits-box ul {
   list-style-type: disc;
   list-style-position: outside;
   padding-left: 75px;
-  padding-right: 640px;
 }
-.testimonial {
+#testimonial {
   background-image: url("../images/testimonial_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  font-size: 36px;
-  /*text-align: center;*/
-  color: #fff;
-  padding: 50px 430px;
 }
-blockquote {
+#testimonial-box {
+  width: 580px;
+  margin: auto;
+  padding: 120px 0px;
+  font-size: 36px;
+  color: #fff;
+}
+#quote {
   font-weight: 300;
   font-style: italic;
 }
 #attribution {
   font-weight: 600; 
 }
-.cta {
+#cta {
   background-color: #f9e42e;
   height: 60px;
   padding-top: 30px;
-  /*text-align: center;*/
 }
-.now-button {
-  font-size: 28px;
-  font-weight: 800;
+.now.button {
   background-color: #033048;
-  border-radius: 5px;
-  padding: 10px 35px; 
 }
-a.now-button {
+a.now.button {
   color: #fff;
   text-decoration: none;
 }
-footer {
+#footer {
   background-color: #121212;
-  height: 350px;
 }
-#logo {
-  font-size: 48px;
-  font-weight: 800;
+.bottom.logo {
   color: #f9e42e;
-  /*text-align: center;*/
   padding-top: 50px;
   padding-bottom: 70px;
 }
-.twitter {
+#twitter {
   padding-right: 30px;
 }
-.facebook {
+#facebook {
   padding-left: 30px;
 }
 #copyright {
   font-size: 18px;
   font-weight: 600;
-  padding-top: 70px;
-  padding-bottom: 15px;
   color: #fff;
+  padding-top: 70px;
+  padding-bottom: 55px;
+}
+@media only screen and (max-width: 1178px) {
+  #flex-container {
+    display: block;
+    max-width: 962px;
+  }
+  #robot-img {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 0px 50px 0px;
+  }
+  .benefits-box{
+    font-size: 21px;
+  }
+  .graf-title {
+    font-size: 35px;
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  #tagline {
+    font-size: 34px;
+    padding: 170px 40px 250px 40px;
+  }
+  .benefits-box {
+    font-size: 16px;
+  }
+  .graf-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  #testimonial-box {
+    max-width: 100%;
+    height: auto;
+    font-size: 26px;
+  }
 }

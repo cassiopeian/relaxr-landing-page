@@ -5,43 +5,71 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,300i,600,800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
-<header id="hero">
-  <h1 class="top logo"><a href="index.html">Relaxr</a></h1>
-  <p id="tagline">Get peace of mind with a single tap</p>
-  <a href="https://www.google.com" class="get button">Get It Now</a>
-</header>
-<section id="benefits">
-  <div id="flex-container">
-    <img id="robot-img" src="images/digital-assistant.png">
-    <div class="benefits-box">
-      <h2 class="graf-title">Benefits</h2>
-      <p class="graf">The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
-      <ul>
-        <li>Schedules meetings for you</li>
-        <li>Offers Excel automation to complete your work for you</li>
-        <li>Responds to emails on your behalf</li>
-        <li>Does all your work for you with our revolutionary AI technology</li>
-      </ul>
+  <section id="hero">
+    <header id="header">
+      <div class="header-flex">
+        <h1 class="top logo"><a href="index.html">Relaxr</a></h1>
+        <div class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li class="header-list"><a href="about.html">About</a></li>
+            <li class="header-list"><a href="faq.html">FAQ</a></li>
+            <li class="header-list"><a href="team.html">Team</a></li>
+            <li class="header-list"><a href="contact.html">Contact Us</a></li>
+            <li class="header-list"><a href="blog.html">Blog</a></li>
+          </ul>
+          <div class="close-nav">
+            <span class="left"></span><span class="right"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <span id="tagline">Get peace of mind with a single tap</span>
+    <a href="about.html" class="get button">Get It Now</a>
+  </section>
+  <section id="benefits">
+    <div id="index-flex">
+      <img id="robot-img" src="images/digital-assistant.png" alt="RelaxrBot">
+      <div class="benefits-box">
+        <h2 id="graf-title">Benefits</h2>
+        <p id="graf">The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+          <ul class="check-bullet">
+            <li>Schedules meetings for you</li>
+            <li>Offers Excel automation to complete your work for you</li>
+            <li>Responds to emails on your behalf</li>
+            <li>Does your work for you with revolutionary AI technology</li>
+          </ul>
+      </div>
     </div>
-  </div>
-</section>
-<section id="testimonial">
-  <div id="testimonial-box">
-    <blockquote id="quote">“Relaxr changed my life. I've been able to travel the world, spend limited time working—and my boss keeps thanking me for crushing work.”</blockquote>
-    <p id="attribution">—Amanda, Intuit</p>
-  </div>
-</section>
-<section id="cta">
-  <a href="https://www.google.com" class="now button">Sign Up Now!</a>
-</section>
-<footer id="footer">
-  <div class="bottom logo">Relaxr</div>
-  <a href="https://www.twitter.com"><img src="images/twitter.png" id="twitter"></a> 
-  <a href="https://www.facebook.com"><img src="images/facebook.png" id=" facebook"></a>
-  <div id="copyright">Copyright 2015. Relaxr.</div>
-</footer>
+  </section>
+  <section id="testimonial">
+    <div id="testimonial-box">
+      <span class="smart-quotes">“</span><blockquote id="quote">Relaxr changed my life. I've been able to travel the world, spend limited time working—and my boss keeps thanking me for crushing work.</blockquote><span class="smart-quotes">”</span>
+      <span id="attribution">—Amanda, Intuit</span>
+    </div>
+  </section>
+  <section id="cta">
+    <a href="about.html" class="now button">Sign Up Now!</a>
+  </section>
+  <footer id="footer">
+    <h1 class="bottom logo">Relaxr</h1>
+    <div id="social-icons-container">
+      <div>
+        <a class="social-icons" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div>
+        <a class="social-icons" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <small id="copyright">Copyright 2015. Relaxr.</small>
+  </footer>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
